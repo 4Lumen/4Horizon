@@ -1,0 +1,13 @@
+services:
+  - name: web
+    git:
+      repo: "https://github.com/4Lumen/4Horizon"
+      branch: BranchDigitalOcean
+    envs:
+    - key: USE_NPM_INSTALL
+      scope: BUILD_TIME
+      value: "true"
+ 
+ 
+ 
+ 
