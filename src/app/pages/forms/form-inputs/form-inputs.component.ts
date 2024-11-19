@@ -11,3 +11,5 @@ export class FormInputsComponent {
   heartRate = 4;
   radioGroupValue = 'This is value 2';
 }
+
+

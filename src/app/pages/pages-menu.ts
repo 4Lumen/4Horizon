@@ -16,6 +16,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'FEATURES',
     group: true,
   },
+  /** 
   {
     title: 'Layout',
     icon: 'layout-outline',
@@ -43,6 +44,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
+  */
   {
     title: 'Forms',
     icon: 'edit-2-outline',
@@ -50,7 +52,8 @@ export const MENU_ITEMS: NbMenuItem[] = [
       {
         title: 'Form Inputs',
         link: '/pages/forms/inputs',
-      },
+      }
+      /**,
       {
         title: 'Form Layouts',
         link: '/pages/forms/layouts',
@@ -63,8 +66,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
         title: 'Datepicker',
         link: '/pages/forms/datepicker',
       },
+      */
     ],
-  },
+  }
+  /**,
   {
     title: 'UI Features',
     icon: 'keypad-outline',
@@ -244,4 +249,5 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
     ],
   },
+  */
 ];
